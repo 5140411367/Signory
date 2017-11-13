@@ -1,0 +1,52 @@
+#header{
+	background-image: url(1.jpg); 
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+
+.body {
+				padding: 0; margin: 0; background-color: : #fafafa;font-family: verdana; text-align: center;
+			}
+
+
+}
+
+			.body-responsive{
+				margin-bottom: 10px;
+			}
+
+		.body-responsive .bagi-dua{
+			background-color: cyan;
+			float: left;
+			width: 100%;
+			text-align: justify;
+			border-top: 3px solid #ddd;
+			border-bottom: 3px solid #ddd;
+		}
+				.body-responsive .bagi-dua h3, .body-responsive p{
+					margin: 5px;
+				}
+
+#footer{
+	text-align: center;
+	background-color: blue;
+	padding: 5px;
+}
+
+		@media (max-width: 720px){
+			.body-responsive .bagi-dua{
+				background-color: yellow;
+				float: left;
+				width: 100%;
+			}
+		}
+				@media (min-width: 720px) and (max-width: 992px){
+					.body-responsive .bagi-dua{
+						background-color: red;
+						float: left;
+						width: 100%;
+					}
+				}
